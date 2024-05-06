@@ -1,0 +1,1251 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+
+ 
+}
+#username {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  width: 100%;
+}
+
+#username:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.login-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+  margin: 150px auto;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.login-form input[type="submit"] {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.login-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+
+/* For Mobile Devices */
+@media only screen and (max-width: 600px) {
+  .login-container {
+    width: 90%;
+    margin: 100px auto;
+  }
+}
+
+/* For Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .login-container {
+    width: 70%;
+    margin: 150px auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.register-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+  margin: 150px auto;
+}
+
+.register-container h2 {
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.register-form input[type="submit"] {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.register-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+/* For Mobile Devices */
+@media only screen and (max-width: 600px) {
+  .register-container {
+    width: 90%;
+    margin: 100px auto;
+  }
+}
+
+/* For Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .register-container {
+    width: 70%;
+    margin: 150px auto;
+  }
+}
+
+
+
+
+
+.navbar{
+
+   width: 100%;
+   height: 50px;
+}
+
+
+.iconuser{
+
+    width: 30px;
+    height: 30px;
+}
+
+.dropdown-menu{
+
+   margin-left: -150px;
+}
+
+
+
+
+
+/* For Mobile Devices */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    height: 40px; /* Adjust height for mobile view */
+  }
+
+  .iconuser {
+    width: 20px; /* Adjust icon size for mobile view */
+    height: 20px; /* Adjust icon size for mobile view */
+  }
+
+  .dropdown-menu {
+    margin-left: -100px; /* Adjust dropdown menu position for mobile view */
+  }
+}
+
+/* For Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .navbar {
+    height: 45px; /* Adjust height for tablet view */
+  }
+
+  .iconuser {
+    width: 25px; /* Adjust icon size for tablet view */
+    height: 25px; /* Adjust icon size for tablet view */
+  }
+
+  .dropdown-menu {
+    margin-left: -125px; /* Adjust dropdown menu position for tablet view */
+  }
+}
+
+
+
+
+
+
+.post-form {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.post-form textarea {
+  width: 100%;
+  border: none;
+  resize: none;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.post-form button {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.post-form button:hover {
+  background-color: #45a049;
+}
+
+#postdetails{
+
+    margin-top: 20px;
+}
+
+
+.user-posts {
+  margin-bottom: 20px;
+}
+
+.post-box {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+#postbody{
+
+   
+    height: auto;
+    width: 600px;
+    border: 1px solid #dddddd;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+
+
+}
+
+#posthead{
+
+   display: flex;
+   flex-direction: row;
+}
+
+
+/* For Mobile Devices */
+@media only screen and (max-width: 600px) {
+  .post-form {
+    width: 90%; /* Adjust width for mobile view */
+    padding: 15px; /* Adjust padding for mobile view */
+  }
+
+  .post-form textarea {
+    font-size: 14px; /* Adjust font size for mobile view */
+  }
+
+  .post-form button {
+    padding: 8px 15px; /* Adjust padding for mobile view */
+  }
+
+  #postdetails {
+    margin-top: 15px; /* Adjust margin for mobile view */
+  }
+
+  .post-box {
+    padding: 15px; /* Adjust padding for mobile view */
+  }
+
+  #postbody {
+    width: 90%; /* Adjust width for mobile view */
+    padding: 15px; /* Adjust padding for mobile view */
+    margin: 15px auto; /* Adjust margin for mobile view */
+  }
+
+  #posthead {
+    flex-direction: column; /* Change flex direction for mobile view */
+  }
+}
+
+/* For Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .post-form {
+    width: 70%; /* Adjust width for tablet view */
+  }
+
+  #postbody {
+    width: 70%; /* Adjust width for tablet view */
+    margin: 20px auto; /* Adjust margin for tablet view */
+  }
+}
+
+
+
+
+
+/* styles.css */
+
+.job-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.job-form label {
+  font-weight: bold;
+}
+
+.job-form .form-input,
+.job-form .form-textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.job-form .submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.job-form .submit-button:hover {
+  background-color: #45a049;
+}
+
+label[for="companyName"] {
+  font-weight: bold;
+}
+
+#companyName {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+#companyName:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+#modalform{
+
+  height: auto;
+    width: 600px;
+    border: 1px solid #dddddd;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+
+
+
+/* For Mobile Devices */
+@media only screen and (max-width: 600px) {
+  .job-form {
+    width: 90%; /* Adjust width for mobile view */
+    margin: 0 auto; /* Center align for mobile view */
+  }
+
+  .job-form .form-input,
+  .job-form .form-textarea {
+    padding: 5px; /* Adjust padding for mobile view */
+    margin-bottom: 5px; /* Adjust margin bottom for mobile view */
+  }
+
+  .job-form .submit-button {
+    padding: 8px 15px; /* Adjust padding for mobile view */
+  }
+
+  #companyName {
+    padding: 8px; /* Adjust padding for mobile view */
+    margin-top: 3px; /* Adjust margin top for mobile view */
+  }
+
+  #modalform {
+    width: 90%; /* Adjust width for mobile view */
+    padding: 15px; /* Adjust padding for mobile view */
+    margin: 20px auto; /* Center align for mobile view */
+  }
+}
+
+/* For Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .job-form {
+    width: 70%; /* Adjust width for tablet view */
+  }
+
+  #modalform {
+    width: 70%; /* Adjust width for tablet view */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.profilecontainer {
+  border: 1px solid whitesmoke;
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#Username{
+
+   background-color: #1950b5;
+}
+
+#username,#email,#phone{
+
+    display: flex;
+    justify-content: center;
+}
+
+#skills{
+
+    padding-left: 150px;
+}
+
+
+.phoneform{
+
+    padding-left: 150px;
+    
+}
+
+.skillform{
+
+   padding-left: 150px;
+
+}
+
+
+
+
+
+/* For screens smaller than 600px (e.g., mobile devices) */
+@media only screen and (max-width: 599px) {
+  .profilecontainer {
+    width: 90%; /* Adjust width for smaller screens */
+    padding: 15px; /* Adjust padding for smaller screens */
+    margin: 0 auto; /* Center align for smaller screens */
+  }
+
+  #skills,
+  .phoneform,
+  .skillform {
+    padding-left: 0; /* Reset padding-left for smaller screens */
+  }
+
+  #username,
+  #email,
+  #phone {
+    justify-content: flex-start; /* Align items to flex-start for smaller screens */
+    padding-left: 15px; /* Add padding-left for smaller screens */
+  }
+}
+
+/* For screens larger than 600px (e.g., tablets and desktops) */
+@media only screen and (min-width: 600px) {
+  /* No specific adjustments for larger screens */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-textarea {
+  height: 100px; /* Adjust as needed */
+}
+
+.submit-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+
+
+/* For screens smaller than 600px (e.g., mobile devices) */
+@media only screen and (max-width: 599px) {
+  .form-container {
+    max-width: 90%; /* Adjust max-width for smaller screens */
+    padding: 15px; /* Adjust padding for smaller screens */
+    margin: 0 auto; /* Center align for smaller screens */
+  }
+
+  .form-container label {
+    margin-bottom: 8px; /* Adjust margin-bottom for smaller screens */
+  }
+
+  .form-input,
+  .form-textarea {
+    padding: 8px; /* Adjust padding for smaller screens */
+    margin-bottom: 10px; /* Adjust margin-bottom for smaller screens */
+  }
+
+  .form-textarea {
+    height: 80px; /* Adjust height for smaller screens */
+  }
+
+  .submit-btn {
+    padding: 8px 16px; /* Adjust padding for smaller screens */
+    font-size: 14px; /* Adjust font-size for smaller screens */
+  }
+
+  .error-message {
+    margin-top: 3px; /* Adjust margin-top for smaller screens */
+  }
+}
+
+/* For screens larger than 600px (e.g., tablets and desktops) */
+@media only screen and (min-width: 600px) {
+  /* No specific adjustments for larger screens */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* College Details Container */
+.college-details-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* College Name */
+.college-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Degree */
+.degree {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Field of Study */
+.field-of-study {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Date */
+.date {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+/* For screens smaller than 600px (e.g., mobile devices) */
+@media only screen and (max-width: 599px) {
+  .college-details-container {
+    padding: 15px; /* Adjust padding for smaller screens */
+    margin-bottom: 15px; /* Adjust margin-bottom for smaller screens */
+  }
+
+  .college-name {
+    font-size: 16px; /* Adjust font-size for smaller screens */
+    margin-bottom: 8px; /* Adjust margin-bottom for smaller screens */
+  }
+
+  .degree,
+  .field-of-study,
+  .date {
+    font-size: 14px; /* Adjust font-size for smaller screens */
+    margin-bottom: 3px; /* Adjust margin-bottom for smaller screens */
+  }
+}
+
+/* For screens larger than 600px (e.g., tablets and desktops) */
+@media only screen and (min-width: 600px) {
+  /* No specific adjustments for larger screens */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Work Experience Container */
+.work-experience-container {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f7f7f7;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Work Experience Item */
+.work-experience-item {
+  margin-bottom: 20px;
+}
+
+/* Company Name */
+.company-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Position */
+.position {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Date */
+.date {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Description */
+.description {
+  font-size: 16px;
+  color: #444;
+}
+
+
+
+/* For screens smaller than 600px (e.g., mobile devices) */
+@media only screen and (max-width: 599px) {
+  .work-experience-container {
+    padding: 15px; /* Adjust padding for smaller screens */
+    margin-bottom: 15px; /* Adjust margin-bottom for smaller screens */
+  }
+
+  .work-experience-item {
+    margin-bottom: 15px; /* Adjust margin-bottom for smaller screens */
+  }
+
+  .company-name {
+    font-size: 18px; /* Adjust font-size for smaller screens */
+  }
+
+  .position {
+    font-size: 16px; /* Adjust font-size for smaller screens */
+  }
+
+  .date,
+  .description {
+    font-size: 14px; /* Adjust font-size for smaller screens */
+  }
+}
+
+/* For screens larger than 600px (e.g., tablets and desktops) */
+@media only screen and (min-width: 600px) {
+  /* No specific adjustments for larger screens */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skills-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
+.skills-heading {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skill-item {
+  background-color: #ddd;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+  display: inline-block;
+}
+
+
+
+
+/* For screens smaller than 600px (e.g., mobile devices) */
+@media only screen and (max-width: 599px) {
+  .skills-container {
+    padding: 15px; /* Adjust padding for smaller screens */
+    margin-bottom: 15px; /* Adjust margin-bottom for smaller screens */
+  }
+
+  .skills-heading {
+    font-size: 1.3rem; /* Adjust font-size for smaller screens */
+    margin-bottom: 8px; /* Adjust margin-bottom for smaller screens */
+  }
+
+  .skill-item {
+    padding: 3px 8px; /* Adjust padding for smaller screens */
+    margin: 3px; /* Adjust margin for smaller screens */
+    font-size: 14px; /* Adjust font-size for smaller screens */
+  }
+}
+
+/* For screens larger than 600px (e.g., tablets and desktops) */
+@media only screen and (min-width: 600px) {
+  /* No specific adjustments for larger screens */
+}
+
+
+
+
+
+
+
+
+
+
+
+.job-applications {
+  margin-top: 20px;
+}
+
+.job-details {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.applicant {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+/* For screens smaller than 600px (e.g., mobile devices) */
+@media only screen and (max-width: 599px) {
+  .job-applications {
+    margin-top: 15px; /* Adjust margin-top for smaller screens */
+  }
+
+  .job-details {
+    padding: 15px; /* Adjust padding for smaller screens */
+    margin-bottom: 15px; /* Adjust margin-bottom for smaller screens */
+  }
+
+  .applicant {
+    padding: 8px; /* Adjust padding for smaller screens */
+    margin-bottom: 8px; /* Adjust margin-bottom for smaller screens */
+  }
+
+  button {
+    padding: 3px 8px; /* Adjust padding for smaller screens */
+    font-size: 14px; /* Adjust font-size for smaller screens */
+  }
+}
+
+/* For screens larger than 600px (e.g., tablets and desktops) */
+@media only screen and (min-width: 600px) {
+  /* No specific adjustments for larger screens */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* OtherProfile.css */
+
+/* Container */
+.other-profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Profile Section */
+.profile-section {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+#otherprofilename{
+
+   background-color: #1950b5;
+}
+
+/* Sub-sections */
+.education-section,
+.work-experience-section,
+.skills-section,
+.posts-section,
+.job-posts-section {
+  margin-bottom: 20px;
+}
+
+
+
+/* Education and Work Experience Items */
+.education-item,
+.work-experience-item {
+  margin-bottom: 10px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Styles */
+.institution,
+.degree,
+.field-of-study,
+.dates,
+.company,
+.position,
+.description,
+.skills,
+.post-details,
+.job-post-details {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Headings */
+h2,
+h3 {
+  color: #333;
+}
+
+/* Posts Section */
+.posts-section,
+.job-posts-section {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #1950b5;
+}
+
+/* Post and Job Post Items */
+.post-item,
+.job-post-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover Effect */
+.post-item:hover,
+.job-post-item:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+#timeanddate{
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   color:#848a86;
+}
+
+
+/* For screens smaller than 800px (e.g., mobile devices) */
+@media only screen and (max-width: 799px) {
+  .other-profile-container {
+    max-width: 90%; /* Adjust max-width for smaller screens */
+    padding: 15px; /* Adjust padding for smaller screens */
+    margin: 0 auto; /* Center align for smaller screens */
+  }
+}
+
+/* For screens larger than 800px (e.g., tablets and desktops) */
+@media only screen and (min-width: 800px) {
+  .other-profile-container {
+    max-width: 800px; /* Keep max-width as 800px for larger screens */
+    margin: 0 auto; /* Center align for larger screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.highlight-about-us {
+  text-align: center;
+}
+
+.highlighted-text {
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 20px;
+  border: 3px solid #007bff;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  animation: highlight 2s infinite alternate;
+}
+
+@keyframes highlight {
+  from {
+    background-color: #f8f9fa;
+  }
+  to {
+    background-color: #007bff;
+    color: white;
+  }
+}
+
+
+
+.back-to-home-button-container {
+  text-align: center;
+}
+
+.back-to-home-button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-home-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+/* For Mobile Devices */
+@media only screen and (max-width: 600px) {
+  .highlighted-text {
+    font-size: 16px; /* Adjust font size for mobile view */
+    padding: 15px; /* Adjust padding for mobile view */
+    border-width: 2px; /* Adjust border width for mobile view */
+    border-radius: 8px; /* Adjust border radius for mobile view */
+  }
+
+  .back-to-home-button {
+    padding: 12px 25px; /* Adjust padding for mobile view */
+    font-size: 16px; /* Adjust font size for mobile view */
+    border-radius: 8px; /* Adjust border radius for mobile view */
+  }
+}
+
+/* For Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .highlighted-text {
+    font-size: 17px; /* Adjust font size for tablet view */
+    padding: 18px; /* Adjust padding for tablet view */
+  }
+
+  .back-to-home-button {
+    padding: 14px 28px; /* Adjust padding for tablet view */
+    font-size: 17px; /* Adjust font size for tablet view */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.contact-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 100px;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+/* For Mobile Devices */
+@media only screen and (max-width: 600px) {
+  .contact-form-container {
+    max-width: 90%; /* Adjust max-width for mobile view */
+    padding: 15px; /* Adjust padding for mobile view */
+    border-radius: 8px; /* Adjust border-radius for mobile view */
+  }
+
+  .contact-form-container h2 {
+    font-size: 20px; /* Adjust font-size for mobile view */
+    margin-bottom: 15px; /* Adjust margin bottom for mobile view */
+  }
+
+  .form-group {
+    margin-bottom: 10px; /* Adjust margin bottom for mobile view */
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 8px; /* Adjust padding for mobile view */
+    border-radius: 3px; /* Adjust border-radius for mobile view */
+  }
+
+  textarea {
+    height: 80px; /* Adjust height for mobile view */
+  }
+
+  .submit-btn {
+    padding: 8px 15px; /* Adjust padding for mobile view */
+    font-size: 14px; /* Adjust font-size for mobile view */
+  }
+}
+
+/* For Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .contact-form-container {
+    max-width: 70%; /* Adjust max-width for tablet view */
+  }
+}
