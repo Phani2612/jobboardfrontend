@@ -8,6 +8,7 @@ import { faEdit } from '@fortawesome/free-solid-svg-icons';
 import Navbar from './Navbar'
 import Educationmodal from './Educationmodal'
 import Workmodal from './Workmodal'
+import { Link } from 'react-router-dom'
 
 function Profile() {
 
@@ -467,7 +468,13 @@ function handleeducation(event)
             <h3>Job Posts</h3>
             {i.jobposts.map(jobPost => (
               <div key={jobPost._id} className="job-post-item">
-                <p className="job-post-details">Job Post: {jobPost.JobPosts}</p>
+                <h4 className="job-post-details" >Company : {jobPost.CompanyName}</h4>
+                <h4 className="job-post-details">Title: {jobPost.JobTitle}</h4>
+                <h6 className="job-post-details" >Skills : {jobPost.SkillRequirement}</h6>
+                
+              <Link to='/show' ><button type="button" class="btn btn-primary">Check applications</button></Link>
+
+               
               </div>
             ))}
           </div>
