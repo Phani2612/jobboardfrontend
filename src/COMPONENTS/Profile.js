@@ -467,7 +467,7 @@ function handleeducation(event)
             <h3>Job Posts</h3>
             {i.jobposts.map(jobPost => (
               <div key={jobPost._id} className="job-post-item">
-                <p className="job-post-details">Job Post: {jobPost.JobPostDetails}</p>
+                <p className="job-post-details">Job Post: {jobPost.JobPosts}</p>
               </div>
             ))}
           </div>
